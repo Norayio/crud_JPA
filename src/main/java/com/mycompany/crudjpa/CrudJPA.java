@@ -1,8 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.crudjpa;
+
+import vista.VistaUsuarios;
 
 /**
  *
@@ -11,6 +10,16 @@ package com.mycompany.crudjpa;
 public class CrudJPA {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        // llamando a la vista
+        VistaUsuarios objetoUsuarios = new VistaUsuarios();
+        
+        // haciendo visible cuando se ejecute
+        objetoUsuarios.setVisible(true);
+        
+        
+        
+        
+        
     }
 }
